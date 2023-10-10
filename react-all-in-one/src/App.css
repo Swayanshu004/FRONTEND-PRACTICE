@@ -1,0 +1,64 @@
+
+#root{
+  margin: 0%;
+  padding: 0%;
+}
+#main{
+  margin: 0%;
+  padding: 0%;
+  width: 100vw;
+  height: 100vh;
+  background-color: #212121;
+  color: #fff;
+}
+#two>h1{
+  margin: 60px;
+  text-align: center;
+}
+#cards{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#bg-changer{
+  width: 30%;
+  height: 100%;
+  background-color: #add8fe;
+}
+#two{
+  width: 30%;
+  height: 100%;
+  background-color: #55aefd;
+  display: flex;
+  justify-content: center;
+}
+#field{
+  padding: 0px 20px;
+  border-radius: 10px 0px 0px 10px;
+  background-color: #fff;
+  color: #000;
+  font-size: 25px;
+  margin: 0px;
+}
+#out{
+  display: flex;
+  margin: 10px 0px;
+}
+#c{
+  background-color: #ffe100;
+  color: #fff;
+  border-radius: 0px 10px 10px 0px;
+}
+#two h1{
+  color: #212121;
+  font-size: 30px;
+  margin: 0px;
+}
+
+#three{
+  width: 30%;
+  height: 100%;
+  background-color: #005aa9;
+}

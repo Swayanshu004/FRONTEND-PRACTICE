@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: valo;
+    src: url(./Valorant\ Font.ttf);
+}
+@font-face {
+    font-family: db;
+    src: url(./Red_Hat_Mono/static/RedHatMono-Light.ttf);
+}
+html , body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family: "General Sans Medium";
+}
+#cursor{
+    position: absolute;
+    z-index: 999;
+    transition: all linear 0.2s;
+}
+#cursor #border{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #00fbff;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cursor #solid{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #00fbff;
+}
+#hero{
+    width: 100vw;
+    height: 100vh;
+    background-color: #121212;
+    color: #ffffff;
+}
+#nav{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#nav h3{
+    font-family: valo;
+    color: #00fbff;
+}
+#nav #left{
+    width: 35px;
+    height: 25px;
+    margin-left: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    border-radius: 50px;
+}
+
+#nav #right{
+    width: 130px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#right button{
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+}
+#right button:hover{
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 2px solid #00fbff;
+    border-radius: 50px;
+    color: #00fbff;
+}
+#landing{
+    margin-top: 100px;
+    margin-left: 20px;
+    position: relative;
+}
+#landing h2:nth-child(1){
+    font-size: 70px;
+    text-align: center;
+}
+#landing h2:nth-child(2){
+    font-size: 170px;
+    line-height: .6;
+    text-align: center;
+}
+#landing h2:nth-child(3){
+    font-size: 50px;
+    line-height: 2;
+    text-align: center;
+}
+#landing h5{
+    font-family: db;
+    text-align: center;
+    color: #00fbff;
+}

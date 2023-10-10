@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: valo;
+    src: url(./Valorant\ Font.ttf);
+}
+@font-face {
+    font-family: db;
+    src: url(./Red_Hat_Mono/static/RedHatMono-Light.ttf);
+}
+html , body{
+    width: 100%;
+    height: 100%;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    font-family: "General Sans Medium";
+}
+#hero{
+    width: 100vw;
+    height: 100vh;
+    background-color: #121212;
+    color: #fff;
+}
+#nav{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav h3{
+    font-family: valo;
+    color: #ff7300;
+}
+#nav #left{
+    width: 35px;
+    height: 25px;
+    margin-left: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    border-radius: 50px;
+}
+#nav #right{
+    width: 130px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#right button{
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+}
+#right button:hover{
+    padding: 5px 10px;
+    background-color: transparent;
+    /* border: 2px solid #ff7300; */
+    border-radius: 50px;
+    background-color: #ff7300;
+    /* color: #ff7300; */
+}
+#landing{
+    margin-top: 100px;
+    margin-left: 20px;
+    position: relative;
+}
+#landing h2:nth-child(1){
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#landing h2:nth-child(2){
+    font-size: 170px;
+    line-height: .6;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#page2{
+    width: 100vw;
+    height: 140vh;
+    overflow: hidden;
+    background-color: #ffffff;
+} 
+.strip{
+    width: 300vw;
+}
+.strip:nth-child(2n){
+    margin-left: -70%;
+}
+.strip h1{
+    line-height: .8;
+    font-size: 15vw;
+    color: #000083;
+}
+h1 span{
+    color: transparent;
+    -webkit-text-stroke: .7px #1800d1;
+}
+
+
+
+#page3{
+    width: 100vw;
+    height: 140vh;
+    overflow: hidden;
+    background-color: #121212;
+} 
+
+
